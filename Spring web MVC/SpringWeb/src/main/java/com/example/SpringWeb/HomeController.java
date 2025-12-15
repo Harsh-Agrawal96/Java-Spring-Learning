@@ -1,4 +1,4 @@
-package com.example.SpringBootWeb;
+package com.example.SpringWeb;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;

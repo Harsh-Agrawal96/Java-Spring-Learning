@@ -1,4 +1,4 @@
-package com.example.SpringBootWeb;
+package com.example.SpringWeb;
 
 public class Alien {
 
