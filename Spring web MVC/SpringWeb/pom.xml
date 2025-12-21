@@ -31,6 +31,12 @@
         <scope>provided</scope>
     </dependency>
 
+      <dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jasper</artifactId>
+			<version>10.1.17</version>
+      </dependency>
+
   </dependencies>
   <build>
     <finalName>SpringWeb</finalName>
