@@ -10,9 +10,19 @@
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>dispatcherRemain</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+
   <servlet-mapping>
     <servlet-name>dispatcherTag</servlet-name>
     <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>dispatcherRemain</servlet-name>
+    <url-pattern>/remain</url-pattern>
   </servlet-mapping>
 
 </web-app>

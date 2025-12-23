@@ -20,17 +20,7 @@
       </bean>
 
       <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
-      <bean name="/" class="com.example.SpringWeb.UIController"/>
 
-      <bean id="UiController" class="com.example.SpringWeb.UIController"/>
-
-      <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
-          <property name="mappings">
-              <props>
-                  <prop key="/add">UiController</prop>
-                  <prop key="/addAlien">UiController</prop>
-              </props>
-          </property>
-      </bean>
+     <bean name="/remain" class="com.example.SpringWeb.NewController"/>
 
   </beans>
